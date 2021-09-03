@@ -1,5 +1,7 @@
 # 11_02_02_animal_database
 
+See example at [GitHub Pages](https://stineps.github.io/11_02_02_animal_database/)
+
 These are the two versions of animal base
 
 animals_basic is the original, using just the JSON objects
