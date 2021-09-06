@@ -4,6 +4,13 @@ window.addEventListener("DOMContentLoaded", start);
 
 const allAnimals = [];
 
+const Animal = {
+  name: "",
+  type: "unknown",
+  desc: "",
+  age: 0,
+};
+
 function start() {
   console.log("ready");
 
@@ -20,12 +27,6 @@ function loadJSON() {
 }
 
 function prepareObjects(jsonData) {
-  const Animal = {
-    name: "",
-    type: "unknown",
-    desc: "",
-    age: 0,
-  };
   jsonData.forEach((element) => {
     // TODO: Create new object with cleaned data - and store that in the allAnimals array
     const animal = Object.create(Animal);
